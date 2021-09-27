@@ -1,0 +1,680 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+	<title>E +</title>
+
+	<meta name="google-site-verification" content="2nC-r8pPsNlc9YR0UJyIsL7JFvEAPyQsw1Kh7MdIdpc" />
+
+	<!-- Metas -->
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="description" content="E+">
+	<meta name="author" content="E+">
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:description" content="E+" />
+	<meta name="twitter:title" content="E+" />
+	<meta name="twitter:image" content="" />
+	<meta property="og:locale" content="pt-br" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="E+" />
+	<meta property="og:description" content="E+" />
+	<meta property="og:site_name" content="E+" />
+	<meta property="og:image" content="" />
+
+	<link rel="icon" href="imgs/favicon.ico" />
+	<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+	<!-- Tipografia-->
+	<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/bootstrap-5.0.2.min.css">
+	<link rel="stylesheet" href="css/swiper-bundle.min.css">
+	<link rel="stylesheet" href="css/e+.css">
+	<link rel="stylesheet" href="css/galeria.css">
+</head>
+
+<body>
+	<header class="fixed">
+		<div class="menu -biz">
+			<a href="#assine">Assine UAI</a>
+			<a href="#nota">Nota Fiscal</a>
+			<a href="#anuncie">Anuncie</a>
+			<a href="#webmail">Webmail</a>
+		</div>
+
+		<div class="header -wrapper">
+			<div class="header -grid">
+				<div class="social -header">
+					<a href="#facebook" class="social -facebook">
+						<svg class="sprite -facebook">
+							<use xlink:href="img/sprites.svg#facebook"></use>
+						</svg>
+					</a>
+					<a href="#twitter" class="social -twitter">
+						<svg class="sprite -twitter">
+							<use xlink:href="img/sprites.svg#twitter"></use>
+						</svg>
+					</a>
+					<a href="#instagram" class="social -instagram">
+						<svg class="sprite -instagram">
+							<use xlink:href="img/sprites.svg#instagram"></use>
+						</svg>
+					</a>
+					<a href="#youtube" class="social -youtube">
+						<svg class="sprite -youtube">
+							<use xlink:href="img/sprites.svg#youtube"></use>
+						</svg>
+					</a>
+				</div>
+
+				<button type="button" class="menu -bars">
+					<svg class="sprite -bars">
+						<use xlink:href="img/sprites.svg#menu"></use>
+					</svg>
+				</button>
+
+				<h1>
+					<a class="logo" href="https://www.uai.com.br/" target="_blank"><img src="img/logo-uai.svg" alt="UAI" height="60" width="80"></a>
+				</h1>
+
+				<div class="menu -widgets">
+					<div class="currency -wrapper">
+						<div class="currency -item">
+							<span class="currency -name">Dólar</span>
+							<span class="currency -value -down">5,326 <svg class="sprite -down">
+									<use xlink:href="img/sprites.svg#arrow-down"></use>
+								</svg></span>
+						</div>
+						<div class="currency -item">
+							<span class="currency -name">Euro</span>
+							<span class="currency -value -up">5,326 <svg class="sprite -up">
+									<use xlink:href="img/sprites.svg#arrow-up"></use>
+								</svg></span>
+						</div>
+					</div>
+
+					<div class="weather -wrapper">
+						<div class="weather -icon"><img src="https://www.uai.com.br/imgs/uai/v1-0-1/weather/day-cloud.svg"
+								class="sprite -cloudsun"></div>
+						<div class="weather -city">Belo Horizonte</div>
+						<div class="weather -min">20°C</div>
+						<div class="weather -max">28°C</div>
+					</div>
+
+					<div class="search -wrapper -search">
+						<div class="search-button -search">
+							<button class="btn-header js-btn-search -search">
+								<svg class="sprite -search">
+									<use xlink:href="img/sprites.svg#search"></use>
+								</svg>
+							</button>
+						</div>
+						<div class="search-input -search">
+							<input type="text" class="input-header js-input-search -search d-none" placeholder="Digite sua busca">
+						</div>
+
+					</div>
+
+					<div class="user -wrapper">
+						<svg class="sprite -user">
+							<use xlink:href="img/sprites.svg#user"></use>
+						</svg>
+					</div>
+				</div>
+
+				<div class="menu -main">
+					<div class="menu -item noticias">
+						<a>Notícias</a>
+						<svg class="sprite -chevrondown">
+							<use xlink:href="img/sprites.svg#chevron-down"></use>
+						</svg>
+						<div class="menu -submenu">
+							<a href="#sub" class="menu -title">Página Inicial</a>
+							<a href="#sub">Gerais</a>
+							<a href="#sub">Política</a>
+							<a href="#sub">Economia</a>
+							<a href="#sub">Nacional</a>
+							<a href="#sub">Internacional</a>
+							<a href="#sub">Tecnologia</a>
+							<a href="#sub">Emprego</a>
+							<a href="#sub">Especiais</a>
+						</div>
+					</div>
+					<div class="menu -item esportes">
+						<a>Esportes</a>
+						<svg class="sprite -chevrondown">
+							<use xlink:href="img/sprites.svg#chevron-down"></use>
+						</svg>
+						<div class="menu -submenu -column">
+							<div class="menu -col">
+								<a href="#sub" class="menu -title">Página Inicial</a>
+								<a href="#sub">América</a>
+								<a href="#sub">Atlético</a>
+								<a href="#sub">Cruzeiro</a>
+								<a href="#sub">Volei</a>
+								<a href="#sub">Basquete</a>
+								<a href="#sub">MMA</a>
+								<a href="#sub">Blogs e Colunas</a>
+								<a href="#sub">Mais esportes</a>
+							</div>
+							<div class="menu -col">
+								<a href="#sub" class="menu -title">Futebol</a>
+								<a href="#sub">Mineiro 2021</a>
+								<a href="#sub">Copa Libertadores 2021</a>
+								<a href="#sub">Sul-Americana 2021</a>
+								<a href="#sub">Copa do Brasil 2021</a>
+								<a href="#sub">Eliminatórias da Copa 2022</a>
+							</div>
+						</div>
+					</div>
+					<div class="menu -item entretenimento">
+						<a>Entretenimento</a>
+						<svg class="sprite -chevrondown">
+							<use xlink:href="img/sprites.svg#chevron-down"></use>
+						</svg>
+						<div class="menu -submenu">
+							<a href="#sub">Famosos</a>
+							<a href="#sub">Série e TV</a>
+							<a href="#sub">Cinema</a>
+							<a href="#sub">Música</a>
+							<a href="#sub">Trends</a>
+							<a href="#sub">Comportamento</a>
+							<a href="#sub">Gastronomia</a>
+							<a href="#sub">Tech</a>
+							<a href="#sub">Promoções</a>
+						</div>
+					</div>
+					<div class="menu -item"><a href="#menu">TV Alterosa</a></div>
+					<div class="menu -item"><a href="#menu">Veículos</a></div>
+					<div class="menu -item"><a href="#menu">Imóveis</a></div>
+					<div class="menu -item"><a href="#menu">Saúde</a></div>
+					<div class="menu -item">
+						<a>Parceiros</a>
+						<svg class="sprite -chevrondown">
+							<use xlink:href="img/sprites.svg#chevron-down"></use>
+						</svg>
+						<div class="menu -submenu">
+							<a href="#sub">A Voz do Consumidor</a>
+							<a href="#sub">Além do Fato</a>
+							<a href="#sub">Blima Bracher</a>
+							<a href="#sub">Bola pra Frente</a>
+							<a href="#sub">DeFato Online</a>
+							<a href="#sub">Drops de Jogos</a>
+							<a href="#sub">Fashionistando</a>
+							<a href="#sub">Interesse de Minas</a>
+							<a href="#sub">La Notícia</a>
+							<a href="#sub">Mais Educação</a>
+							<a href="#sub">Mundo Ela</a>
+							<a href="#sub">Neo Radar</a>
+							<a href="#sub">Pão e Cerveja</a>
+							<a href="#sub">Territórios Gastronômicos</a>
+							<a href="#sub">Última Marcha</a>
+							<a href="#sub">Viva Informa</a>
+							<a href="#sub">Yoo Life Style</a>
+							<a href="#sub">Blogs</a>
+						</div>
+					</div>
+					<div class="menu -item"><a href="#menu">Promoções</a></div>
+					<div class="menu -item"><a href="#menu">Negócios</a></div>
+					<div class="menu -item servicos">
+						<a>Serviços</a>
+						<svg class="sprite -chevrondown">
+							<use xlink:href="img/sprites.svg#chevron-down"></use>
+						</svg>
+						<div class="menu -submenu">
+							<a href="#sub">Trânsito</a>
+							<a href="#sub">Horóscopo</a>
+							<a href="#sub">Classificados</a>
+							<a href="#sub">Anuncie no Uai</a>
+							<a href="#sub">Assine o Estado de Minas</a>
+						</div>
+					</div>
+				</div>
+				<div class="menu -overlay -js-overlay"></div>
+			</div>
+		</div>
+	</header>
+	<main>
+		<section id="breadcrumb">
+			<div class="row">
+				<div class="col-12">
+					<div class="breadcrumb d-flex align-items-flex-center color-blue1 standard-font f12">
+						<a class="color-secondary-600" href="https://www.uai.com.br/">Uai</a>
+						<a href="/blogs/">blogs</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<aside id="ad1">
+			<div class="fundo fundo bg-ad bg-ad-fill">
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-12 col-sm-10 d-flex flex-column">
+							<span class="standard-font color-black2 caption1">Publicidade</span>
+							<img src="imgs/ad_horizontal.png" alt="ad" height="250" width="100%">
+						</div>
+					</div>
+				</div>
+			</div>
+		</aside>
+		<section id="noticias">
+			<div class="fundo">
+				<div class="container">
+					<div class="row mt-5">
+						<!-- principal -->
+						<div class="col-12 col-lg-6 d-flex flex-column justify-content-between">
+							<article class="noticia-chamada">
+								<a href="#">
+									<img src="imgs/imagemgrande.jpeg" alt="ilustracao" height="366" width="100%">
+									<h5 class="tituloH5 mt-4 mb-1 color-blue1">Lucasfilm</h5>
+									<p class="col-12 col-sm-10 standard-font color-black2 f21 bold">Novo game de ‘Indiana Jones’ será
+										lançado com história original, anuncia Lucasfilm</p>
+								</a>
+							</article>
+							<hr class="mt-0">
+						</div>
+						<div class="col-12 col-sm-12 col-lg-6">
+							<div class="row">
+								<div class="col-12 col-md-6">
+									<article class="noticia-pequena mb-4-5 d-flex d-sm-block">
+										<a href="#" class="d-flex d-sm-block">
+											<h5 class="tituloH5 color-green1 order-1 order-sm-0 ms-3 ms-sm-0">Música</h5>
+											<img class="order-0 order-sm-1" src="imgs/imagemgrande.jpeg" alt="ilustracao" width="100%">
+											<p class="mt-1 standard-font color-black2 f16 order-3">Flaming Lips: a inusitada estratégia de uma
+												banda de rock para fazer shows com segurança na pandemia</p>
+										</a>
+									</article>
+								</div>
+								<div class="col-12 col-md-6">
+									<aside id="ad-pequena1">
+										<div class="fundo fundo bg-ad bg-ad-fill">
+											<div class="d-flex flex-column mx-1 mb-4-5">
+												<img src="imgs/imagem_pequena.jpeg" alt="ad" height="250" width="100%">
+											</div>
+										</div>
+									</aside>
+								</div>
+								<div class="col-12 col-md-6">
+									<article class="noticia-pequena mb-4-5 d-flex d-sm-block">
+										<a href="#" class="d-flex d-sm-block">
+											<h5 class="tituloH5 color-blue2 order-1 order-sm-0 ms-3 ms-sm-0">BBB21</h5>
+											<img class="order-0 order-sm-1" src="imgs/imagemgrande.jpeg" alt="ilustracao" width="100%">
+											<p class="mt-1 standard-font color-black2 f16 order-3">BBB21: Vixe! Gilberto se irrita com
+												pergunta de Kerline em prova: ‘Não gostei! Ficou feio pra mim’</p>
+										</a>
+									</article>
+								</div>
+								<div class="col-12 col-md-6">
+									<article class="noticia-pequena mb-4-5 d-flex d-sm-block">
+										<a href="#" class="d-flex d-sm-block">
+											<h5 class="tituloH5 color-blue2 order-1 order-sm-0 ms-3 ms-sm-0">BBB21</h5>
+											<img class="order-0 order-sm-1" src="imgs/imagemgrande.jpeg" alt="ilustracao" width="100%">
+											<p class="mt-1 standard-font color-black2 f16 order-3">Bianca Andrade diz que se não 'enfrentasse
+												o BBB' não estaria com seu 'BB'</p>
+										</a>
+									</article>
+								</div>
+							</div>
+						</div>
+						<!-- fim principal -->
+						<div class="col-12 col-md-6 col-lg-3">
+							<article class="noticia-pequena mb-4-5 d-flex d-sm-block">
+								<a href="#" class="d-flex d-sm-block">
+									<h5 class="tituloH5 color-blue2 order-1 order-sm-0 ms-3 ms-sm-0">BBB21</h5>
+									<img class="order-0 order-sm-1" src="imgs/imagemgrande.jpeg" alt="ilustracao" width="100%">
+									<p class="mt-1 standard-font color-black2 f16 order-3">Estreia do BBB 21 agita torcedores e rende
+										memes com futebol; veja os melhores da rede</p>
+								</a>
+							</article>
+						</div>
+						<div class="col-12 col-md-6 col-lg-3">
+							<article class="mb-4-5 d-flex d-sm-block">
+								<a href="#">
+									<h5 class="tituloH5 color-blue1">Conteúdo promovido por Taboola</h5>
+									<img class="order-0 order-sm-1" src="imgs/imagemgrande.jpeg" alt="ilustracao" width="100%">
+									<p class="mt-1 standard-font color-black2 f16 order-3 bold mb-0">A Mega-Sena está acumulada e você
+										pode apostar sem sair de casa!</p>
+									<span class="standard-font f12 bold color-gray4">Loterias Brasil</span>
+								</a>
+							</article>
+						</div>
+						<div class="col-12 col-md-6 col-lg-3">
+							<article class="noticia-pequena mb-4-5 d-flex d-sm-block">
+								<a href="#" class="d-flex d-sm-block">
+									<h5 class="tituloH5 color-pink1 order-1 order-sm-0 ms-3 ms-sm-0">luto</h5>
+									<img class="order-0 order-sm-1" src="imgs/imagemgrande.jpeg" alt="ilustracao" width="100%">
+									<p class="mt-1 standard-font color-black2 f16 order-3">Gusttavo Lima lamenta morte de personal
+										trainer: 'Vai fazer muita falta'</p>
+								</a>
+							</article>
+						</div>
+						<div class="col-12 col-md-6 col-lg-3">
+							<aside id="ad-pequena1">
+								<div class="fundo fundo bg-ad bg-ad-fill">
+									<div class="d-flex flex-column mx-1 mb-4-5">
+										<img src="imgs/imagem_pequena.jpeg" alt="ad" height="250" width="100%">
+									</div>
+								</div>
+							</aside>
+						</div>
+						<div class="col-12 col-md-6 col-lg-3">
+							<article class="noticia-pequena mb-4-5 d-flex d-sm-block">
+								<a href="#" class="d-flex d-sm-block">
+									<h5 class="tituloH5 color-pink1 order-1 order-sm-0 ms-3 ms-sm-0">Processo</h5>
+									<img class="order-0 order-sm-1" src="imgs/imagemgrande.jpeg" alt="ilustracao" width="100%">
+									<p class="mt-1 standard-font color-black2 f16 order-3">Após processo, Danilo Gentili faz 'pedido de
+										desculpas' a Marcius Melhem</p>
+								</a>
+							</article>
+						</div>
+						<div class="col-12 col-md-6 col-lg-3">
+							<article class="noticia-pequena mb-4-5 d-flex d-sm-block">
+								<a href="#" class="d-flex d-sm-block">
+									<h5 class="tituloH5 color-blue2 order-1 order-sm-0 ms-3 ms-sm-0">BBB21</h5>
+									<img class="order-0 order-sm-1" src="imgs/imagemgrande.jpeg" alt="ilustracao" width="100%">
+									<p class="mt-1 standard-font color-black2 f16 order-3">Larissa Manoela ao ser comparada com Thaís:
+										'Até eu buguei'</p>
+								</a>
+							</article>
+						</div>
+						<div class="col-12 col-md-6 col-lg-3">
+							<article class="noticia-pequena mb-4-5 d-flex d-sm-block">
+								<a href="#" class="d-flex d-sm-block">
+									<h5 class="tituloH5 color-pink1 order-1 order-sm-0 ms-3 ms-sm-0">Dieta</h5>
+									<img class="order-0 order-sm-1" src="imgs/imagemgrande.jpeg" alt="ilustracao" width="100%">
+									<p class="mt-1 standard-font color-black2 f16 order-3">Novo game de ‘Indiana Jones’ será lançado com
+										história original, anuncia Lucasfilm</p>
+								</a>
+							</article>
+						</div>
+						<div class="col-12 col-md-6 col-lg-3">
+							<article class="noticia-pequena mb-4-5 d-flex d-sm-block">
+								<a href="#" class="d-flex d-sm-block">
+									<h5 class="tituloH5 color-blue1 order-1 order-sm-0 ms-3 ms-sm-0">Premiação</h5>
+									<img class="order-0 order-sm-1" src="imgs/imagemgrande.jpeg" alt="ilustracao" width="100%">
+									<p class="mt-1 standard-font color-black2 f16 order-3">'Bacurau' está entre os indicados a melhor
+										filme internacional do Independent Spirit Awards 2021</p>
+								</a>
+							</article>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<aside id="ad2">
+			<div class="fundo fundo bg-ad bg-ad-fill">
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-12 col-sm-10 d-flex flex-column d-none d-sm-block">
+							<span class="standard-font color-black2 caption1">Publicidade</span>
+							<img src="imgs/ad_horizontal.png" alt="ad" height="250" width="100%">
+						</div>
+						<div class="col-12 col-sm-10 d-flex flex-column d-block d-sm-none">
+							<img src="imgs/imagem_pequena.jpeg" alt="ad" height="250" width="100%">
+						</div>
+					</div>
+				</div>
+			</div>
+		</aside>
+	</main>
+	<footer>
+		<div class="fundo bg-gray2 footer1 d-none d-sm-block">
+			<div class="container pt-5">
+				<div class="row">
+					<div class="col-6 col-md-3 col-lg-2">
+						<ul class="lista-normal">
+							<li class="lista-normal-head"><a class="standard-font color-black2 bold tituloH4"
+									href="https://www.em.com.br/?utm_source=portaluai&utm_campaign=rd" target="_blank">Estado de Minas</a>
+							</li>
+							<li><a class="standard-font color-black2 f14-3"
+									href="https://www.em.com.br/gerais/?utm_source=portaluai&utm_campaign=rd" target="_blank">Gerais</a>
+							</li>
+							<li><a class="standard-font color-black2 f14-3"
+									href="https://www.em.com.br/politica/?utm_source=portaluai&utm_campaign=rd"
+									target="_blank">Política</a></li>
+							<li><a class="standard-font color-black2 f14-3"
+									href="https://www.em.com.br/economia/?utm_source=portaluai&utm_campaign=rd"
+									target="_blank">Economia</a></li>
+							<li><a class="standard-font color-black2 f14-3"
+									href="https://www.em.com.br/internacional/?utm_source=portaluai&utm_campaign=rd"
+									target="_blank">Internacional</a></li>
+							<li><a class="standard-font color-black2 f14-3"
+									href="https://www.em.com.br/nacional/?utm_source=portaluai&utm_campaign=rd"
+									target="_blank">Nacional</a></li>
+							<li><a class="standard-font color-black2 f14-3"
+									href="https://www.em.com.br/especiais/educacao/?utm_source=portaluai&utm_campaign=rd"
+									target="_blank">Educação</a></li>
+							<li><a class="standard-font color-black2 f14-3"
+									href="https://www.em.com.br/tecnologia/?utm_source=portaluai&utm_campaign=rd"
+									target="_blank">Tecnologia</a></li>
+							<li><a class="standard-font color-black2 f14-3"
+									href="https://digital.em.com.br/?utm_source=portaluai&utm_campaign=rd" target="_blank">EM Digital</a>
+							</li>
+							<li><a class="standard-font color-black2 f14-3"
+									href="https://clubea.em.com.br/?utm_source=portaluai&utm_campaign=rd" target="_blank">Clube do
+									Assinante</a></li>
+							<li><a class="standard-font color-black2 f14-3"
+									href="https://www.em.com.br/fale-conosco/?utm_source=portaluai&utm_campaign=rd" target="_blank">Fale
+									com o EM</a></li>
+							<li><a class="standard-font color-black2 f14-3"
+									href="https://assineja.em.com.br/?utm_source=portaluai&utm_campaign=rd" target="_blank">Assine o
+									Estado de Minas</a></li>
+						</ul>
+					</div>
+					<div class="col-6 col-md-3 col-lg-2">
+						<ul class="lista-normal">
+							<li class="lista-normal-head"><a class="standard-font color-black2 bold tituloH4"
+									href="https://www.classificados.em.com.br/?utm_source=portaluai&utm_campaign=rd"
+									target="_blank">Classificados</a></li>
+							<li><a class="standard-font color-black2 f14-3"
+									href="https://www.classificados.em.com.br/anunciar?utm_source=portaluai&utm_campaign=rd"
+									target="_blank">Quero anunciar</a></li>
+						</ul>
+						<ul class="lista-normal">
+							<li class="lista-normal-head"><a class="standard-font color-black2 bold tituloH4"
+									href="https://www.uai.com.br/entretenimento/?utm_source=portaluai&utm_campaign=rd"
+									target="_blank">Entretenimento</a></li>
+							<li><a class="standard-font color-black2 f14-3"
+									href="https://www.uai.com.br/entretenimento/famosos/?utm_source=portaluai&utm_campaign=rd"
+									target="_blank">Famosos</a></li>
+							<li><a class="standard-font color-black2 f14-3"
+									href="https://www.uai.com.br/entretenimento/series-e-tv/?utm_source=portaluai&utm_campaign=rd"
+									target="_blank">Séries e TV</a></li>
+							<li><a class="standard-font color-black2 f14-3"
+									href="https://www.uai.com.br/entretenimento/cinema/?utm_source=portaluai&utm_campaign=rd"
+									target="_blank">Cinema</a></li>
+							<li><a class="standard-font color-black2 f14-3"
+									href="https://www.uai.com.br/entretenimento/musica/?utm_source=portaluai&utm_campaign=rd"
+									target="_blank">Música</a></li>
+							<li><a class="standard-font color-black2 f14-3"
+									href="https://www.uai.com.br/entretenimento/trends/?utm_source=portaluai&utm_campaign=rd"
+									target="_blank">Trends</a></li>
+							<li><a class="standard-font color-black2 f14-3"
+									href="https://www.uai.com.br/entretenimento/comportamento/?utm_source=portaluai&utm_campaign=rd"
+									target="_blank">Comportamento</a></li>
+							<li><a class="standard-font color-black2 f14-3"
+									href="https://www.uai.com.br/entretenimento/gastronomia/?utm_source=portaluai&utm_campaign=rd"
+									target="_blank">Gastronomia</a></li>
+							<li><a class="standard-font color-black2 f14-3"
+									href="https://www.uai.com.br/entretenimento/tech/?utm_source=portaluai&utm_campaign=rd"
+									target="_blank">Tech</a></li>
+							<li><a class="standard-font color-black2 f14-3"
+									href="https://www.uai.com.br/promocao/?utm_source=portaluai&utm_campaign=rd"
+									target="_blank">Promoções</a></li>
+						</ul>
+					</div>
+					<div class="col-6 col-md-3 col-lg-2">
+						<ul class="lista-normal">
+							<li class="lista-normal-head"><a class="standard-font color-black2 bold tituloH4"
+									href="https://www.mg.superesportes.com.br/?utm_source=portaluai&utm_campaign=rd"
+									target="_blank">Superesportes</a></li>
+							<li><a class="standard-font color-black2 f14-3"
+									href="https://www.mg.superesportes.com.br/futebol/america-mg/?utm_source=portaluai&utm_campaign=rd"
+									target="_blank">América</a></li>
+							<li><a class="standard-font color-black2 f14-3"
+									href="https://www.mg.superesportes.com.br/futebol/atletico-mg/?utm_source=portaluai&utm_campaign=rd"
+									target="_blank">Atlético</a></li>
+							<li><a class="standard-font color-black2 f14-3"
+									href="https://www.mg.superesportes.com.br/futebol/cruzeiro/?utm_source=portaluai&utm_campaign=rd"
+									target="_blank">Cruzeiro</a></li>
+							<li><a class="standard-font color-black2 f14-3"
+									href="https://www.mg.superesportes.com.br/volei/?utm_source=portaluai&utm_campaign=rd"
+									target="_blank">Vôlei</a></li>
+							<li><a class="standard-font color-black2 f14-3"
+									href="https://www.mg.superesportes.com.br/basquete/?utm_source=portaluai&utm_campaign=rd"
+									target="_blank">Basquete</a></li>
+							<li><a class="standard-font color-black2 f14-3"
+									href="https://www.mg.superesportes.com.br/futebol/interior/?utm_source=portaluai&utm_campaign=rd"
+									target="_blank">Futebol Mineiro</a></li>
+							<li><a class="standard-font color-black2 f14-3"
+									href="https://www.mg.superesportes.com.br/futebol/futebol-nacional/?utm_source=portaluai&utm_campaign=rd"
+									target="_blank">Futebol Nacional</a></li>
+							<li><a class="standard-font color-black2 f14-3"
+									href="https://www.mg.superesportes.com.br/futebol/futebol-internacional/?utm_source=portaluai&utm_campaign=rd"
+									target="_blank">Futebol Internacional</a></li>
+						</ul>
+						<ul class="lista-normal">
+							<li class="lista-normal-head"><a class="standard-font color-black2 bold tituloH4"
+									href="https://concursos.uai.com.br/?utm_source=portaluai&utm_campaign=rd"
+									target="_blank">Concursos</a></li>
+						</ul>
+						<ul class="lista-normal">
+							<li class="lista-normal-head"><a class="standard-font color-black2 bold tituloH4"
+									href="https://www.uai.com.br/saude/?utm_source=portaluai&utm_campaign=rd" target="_blank">Saúde
+									Plena</a></li>
+						</ul>
+					</div>
+					<div class="col-6 col-md-3 col-lg-2">
+						<ul class="lista-normal">
+							<li class="lista-normal-head"><a class="standard-font color-black2 bold tituloH4"
+									href="https://estadodeminas.vrum.com.br/?utm_source=portaluai&utm_campaign=rd"
+									target="_blank">Veículos</a></li>
+							<li><a class="standard-font color-black2 f14-3"
+									href="https://estadodeminas.vrum.com.br/busca?conteudo=anuncio&veiculo=Carro&estado=MG&de=Vrum-busca1?utm_source=portaluai&utm_campaign=rd"
+									target="_blank">Encontre um veículo</a></li>
+							<li><a class="standard-font color-black2 f14-3"
+									href="https://vender2.vrum.com.br/?utm_source=portaluai&utm_campaign=rd" target="_blank">Anuncie seu
+									veículo</a></li>
+							<li><a class="standard-font color-black2 f14-3"
+									href="https://estadodeminas.vrum.com.br/noticias/?utm_source=portaluai&utm_campaign=rd"
+									target="_blank">Últimas notícias</a></li>
+							<li><a class="standard-font color-black2 f14-3"
+									href="https://estadodeminas.vrum.com.br/videos/?utm_source=portaluai&utm_campaign=rd"
+									target="_blank">Vídeos</a></li>
+							<li><a class="standard-font color-black2 f14-3" href="https://www.facebook.com/programavrum"
+									target="_blank">Vrum no Facebook</a></li>
+							<li><a class="standard-font color-black2 f14-3"
+									href="https://www.vrum.com.br/minharevenda?utm_source=portaluai&utm_campaign=rd"
+									target="_blank">Cadastre sua Revenda</a></li>
+						</ul>
+						<ul class="lista-normal">
+							<li class="lista-normal-head"><a class="standard-font color-black2 bold tituloH4"
+									href="https://www.revistaencontro.com.br/?utm_source=portaluai&utm_campaign=rd"
+									target="_blank">Revista Encontro</a></li>
+							<li><a class="standard-font color-black2 f14-3"
+									href="https://www.revistaencontro.com.br/canal/revista/?utm_source=portaluai&utm_campaign=rd"
+									target="_blank">Notícias</a></li>
+							<li><a class="standard-font color-black2 f14-3"
+									href="https://www.revistaencontro.com.br/canal/cultura/?utm_source=portaluai&utm_campaign=rd"
+									target="_blank">Cultura</a></li>
+							<li><a class="standard-font color-black2 f14-3"
+									href="https://www.revistaencontro.com.br/canal/gastro/?utm_source=portaluai&utm_campaign=rd"
+									target="_blank">Gastrô</a></li>
+						</ul>
+					</div>
+					<div class="col-6 col-md-3 col-lg-2">
+						<ul class="lista-normal">
+							<li class="lista-normal-head"><a class="standard-font color-black2 bold tituloH4"
+									href="https://estadodeminas.lugarcerto.com.br/?utm_source=portaluai&utm_campaign=rd"
+									target="_blank">Imóveis</a></li>
+							<li><a class="standard-font color-black2 f14-3"
+									href="https://estadodeminas.lugarcerto.com.br/busca/mg/?utm_source=portaluai&utm_campaign=rd"
+									target="_blank">Encontre um imóvel</a></li>
+							<li><a class="standard-font color-black2 f14-3"
+									href="https://anuncie2.lugarcerto.com.br/?utm_source=portaluai&utm_campaign=rd"
+									target="_blank">Anuncie seu imóvel</a></li>
+							<li><a class="standard-font color-black2 f14-3"
+									href="https://estadodeminas.lugarcerto.com.br/busca/lancamento/mg/?utm_source=portaluai&utm_campaign=rd"
+									target="_blank">Lancamentos</a></li>
+							<li><a class="standard-font color-black2 f14-3"
+									href="https://estadodeminas.lugarcerto.com.br/noticias/noticias/?utm_source=portaluai&utm_campaign=rd"
+									target="_blank">Últimas notícias</a></li>
+							<li><a class="standard-font color-black2 f14-3" href="https://www.facebook.com/lugarcertoda"
+									target="_blank">Lucar Certo no Facebook</a></li>
+							<li><a class="standard-font color-black2 f14-3"
+									href="https://estadodeminas.lugarcerto.com.br/imobiliarias/?cadastro?utm_source=portaluai&utm_campaign=rd"
+									target="_blank">Cadastre sua Imobiliária</a></li>
+						</ul>
+						<ul class="lista-normal">
+							<li class="lista-normal-head"><a class="standard-font color-black2 bold tituloH4"
+									href="https://uaiagro.com.br/" target="_blank">Agro</a></li>
+							<li><a class="standard-font color-black2 f14-3" href="https://uaiagro.com.br/pecuaria/"
+									target="_blank">Pecuária</a></li>
+							<li><a class="standard-font color-black2 f14-3" href="https://uaiagro.com.br/agricultura/"
+									target="_blank">Agricultura</a></li>
+							<li><a class="standard-font color-black2 f14-3" href="https://uaiagro.com.br/cotacoes/"
+									target="_blank">Cotações</a></li>
+						</ul>
+					</div>
+					<div class="col-6 col-md-3 col-lg-2">
+						<ul class="lista-normal">
+							<li class="lista-normal-head"><a class="standard-font color-black2 bold tituloH4"
+									href="https://www.alterosa.com.br/?utm_source=portaluai&utm_campaign=rd" target="_blank">Tv
+									Alterosa</a></li>
+							<li><a class="standard-font color-black2 f14-3"
+									href="https://www.alterosa.com.br/programas/alterosa-alerta/?utm_source=portaluai&utm_campaign=rd"
+									target="_blank">Alterosa Alerta</a></li>
+							<li><a class="standard-font color-black2 f14-3"
+									href="https://www.alterosa.com.br/programas/jornal-da-alterosa/?utm_source=portaluai&utm_campaign=rd"
+									target="_blank">Jornal da Alterosa</a></li>
+							<li><a class="standard-font color-black2 f14-3"
+									href="https://www.alterosa.com.br/programas/tv-verdade/?utm_source=portaluai&utm_campaign=rd"
+									target="_blank">TV Verdade</a></li>
+							<li><a class="standard-font color-black2 f14-3"
+									href="https://www.alterosa.com.br/programas/alterosa-esporte/?utm_source=portaluai&utm_campaign=rd"
+									target="_blank">Alterosa Esporte</a></li>
+							<li><a class="standard-font color-black2 f14-3"
+									href="https://www.alterosa.com.br/programas/bola-na-area/?utm_source=portaluai&utm_campaign=rd"
+									target="_blank">Bola na Área</a></li>
+							<li><a class="standard-font color-black2 f14-3"
+									href="https://www.alterosa.com.br/programas/mma-alterosa/?utm_source=portaluai&utm_campaign=rd"
+									target="_blank">MMA Alterosa</a></li>
+						</ul>
+						<ul class="lista-normal">
+							<li class="lista-normal-head"><a class="standard-font color-black2 bold tituloH4"
+									href="javascript:void(0);" target="_blank">Outros</a></li>
+							<li><a class="standard-font color-black2 f14-3" href="javascript:void(0);" target="_blank">Correio
+									Braziliense</a></li>
+							<li><a class="standard-font color-black2 f14-3" href="javascript:void(0);" target="_blank">CorreioWeb</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="fundo bg-blue3 footer2">
+			<div class="container">
+				<div class="d-flex justify-content-between pt-2 pt-sm-3-5">
+					<div class="d-none d-sm-flex flex-wrap">
+						<a class="standard-font f14-3 bold color-white1 me-5" href="javascript:void(0);" target="_blank">Termos e
+							condições</a>
+						<a class="standard-font f14-3 bold color-white1 me-5" href="https://www.em.com.br/politica-de-privacidade/"
+							target="_blank">Política de privacidade</a>
+						<a class="standard-font f14-3 bold color-white1" href="https://www.em.com.br/fale-conosco"
+							target="_blank">Entre em contato</a>
+					</div>
+					<a class="d-block standard-font f14-3 bold color-white1 text-center" href="#" target="_blank">© 2021 Diários
+						Associados - Todos os direitos reservados</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script type="text/javascript" src="js/bootstrap-5.0.2.min.js" defer></script>
+	<script type="text/javascript" src="js/swiper-bundle.min.js" defer></script>
+	<script type="text/javascript" src="js/e+.js" defer></script>
+	<script type="text/javascript" src="js/galeria.js" defer></script>
+</body>
+
+</html>
